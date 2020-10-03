@@ -328,3 +328,5 @@ everycheese/media/
 *.sqlite
 *.sqlite3
 
+#Block secrets from being saved to version control
+.env
