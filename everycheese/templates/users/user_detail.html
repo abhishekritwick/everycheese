@@ -16,6 +16,10 @@
     </div>
   </div>
 
+  {% if object.bio %}
+        <p>{{ object.bio|linebreaksbr }}</p>
+      {% endif %}
+
 {% if object == request.user %}
 <!-- Action buttons -->
 <div class="row">
