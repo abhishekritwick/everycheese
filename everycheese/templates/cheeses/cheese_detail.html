@@ -22,7 +22,7 @@
 
 <hr/>
 <h3>Submitted by
-    <a href="{% url 'users:detail' cheese.creator.get_absolute_url %}">
+    <a href="{{ cheese.creator.get_absolute_url }}">
         {{ cheese.creator.username }}
     </a>
 </h3>
